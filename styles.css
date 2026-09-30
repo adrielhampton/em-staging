@@ -70,7 +70,7 @@ section{padding:4rem 0}
 .backers{background:var(--avenue);color:var(--white)}
 .backer-names{list-style:none;margin:0 0 1.3rem;padding:0}
 .backer-names li{font-family:var(--display);text-transform:uppercase;font-size:clamp(1.8rem,6.5vw,3rem);line-height:1.08;color:var(--marigold)}
-.logos{list-style:none;margin:0 0 1.6rem;padding:0;display:flex;flex-wrap:wrap;align-items:center;gap:1.5rem 2rem}
+.logos{list-style:none;margin:0 0 2.4rem;padding:0;display:flex;flex-wrap:wrap;align-items:center;gap:1.5rem 2rem}
 .logos li{display:block}
 .logos img{width:var(--w);max-width:100%;height:auto}
 @media (min-width:880px){.logos img{width:calc(var(--w) * 1.2)}}
@@ -104,6 +104,12 @@ section{padding:4rem 0}
 .sources ul{margin:0;padding-left:1.1rem;font-size:.9rem;line-height:1.5;max-width:80ch}
 .sources li{margin-bottom:.4rem}
 .sources a{color:var(--avenue)}
+
+/* spacing refinements */
+.who{padding-bottom:2.5rem}
+.who + .choice{padding-top:0}
+.backers h2{margin-bottom:1.4rem}
+.endorsed-label{font-weight:700;font-size:1.05rem;letter-spacing:.01em;margin:0 0 1rem;opacity:1}
 
 footer{background:var(--ink);color:#d9e2de;padding:2.2rem 0;font-size:.9rem;line-height:1.5}
 footer .disclosure{border:1.5px solid #d9e2de;padding:1rem 1.1rem;max-width:80ch;border-radius:4px}
